@@ -1,3 +1,5 @@
-class UserSerializer < ActiveModel::Serializer
-  attributes :id, :content, :attatchment, :user_owner, :demand, :created_at, :updated_at, :auth_token
+class CommentSerializer < ActiveModel::Serializer
+  attributes :id, :content, :attatchment, :created_at, :updated_at
+  # belongs_to :user_owner
+  # belongs_to :demand
 end
