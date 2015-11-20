@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
 
+
   validates :auth_token, uniqueness: true
 
   # Include default devise modules. Others available are:
@@ -17,5 +18,11 @@ class User < ActiveRecord::Base
       self.auth_token = Devise.friendly_token
     end while self.class.exists?(auth_token: auth_token)
   end
+
+  def last_location
+    locations.first
+  end
+
+
 
 end

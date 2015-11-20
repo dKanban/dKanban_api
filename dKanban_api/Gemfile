@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rename'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
+gem 'rename'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -23,7 +25,10 @@ gem 'jbuilder', '~> 2.0'
 
 
 # Api gems
-gem 'active_model_serializers'
+gem 'active_model_serializers', github: "rails-api/active_model_serializers", branch: '0-10-stable'
+gem "devise"
+gem 'geocoder'
+gem "paperclip", "~> 4.3"
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -37,20 +42,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development do
-  gem 'sqlite3'
-end
-
-group :test do
-
-  gem "rspec-rails", "~> 3.1"
-  gem "factory_girl_rails"
-  gem 'ffaker'
-  gem "shoulda-matchers"
-end
+# Server scheduled Tasks
+gem 'puma'
+gem 'mocha'
+gem 'whenever'
 
 
-gem "devise"
 
 # Sabisu Stuff
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
@@ -59,6 +56,23 @@ gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
 
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :development, :test do
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
+
+group :test do
+  gem "rspec-rails", "~> 3.1"
+  gem "shoulda-matchers"
+end
+
+
 group :production do
   gem 'pg' # dont want sqlite in production
   gem 'rails_12factor', group: :production
@@ -66,7 +80,10 @@ group :production do
   gem 'unicorn' # make sure you follow installation instructions for this gem
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
+  gem "factory_girl_rails"
+  gem 'ffaker'
+
 end
-gem 'puma'
 
 ruby "2.2.1"

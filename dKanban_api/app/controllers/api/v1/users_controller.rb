@@ -15,6 +15,10 @@ class Api::V1::UsersController < ApplicationController
     respond_with User.find(params[:id])
   end
 
+  def index
+    respond_with User.all.limit(1000)
+  end
+
   def update
 
     user = current_user

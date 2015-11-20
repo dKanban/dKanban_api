@@ -7,9 +7,9 @@ SabisuRails.setup do |config|
   # Base uri for posting the
   # config.base_api_uri = nil
   if Rails.env.production?
-    config.base_api_uri = 'dKanban.herokuapp.com/api'
+    config.base_api_uri = 'usersessionapi.herokuapp.com/api'
   else
-    config.base_api_uri = 'api.dKanban.dev/api'
+    config.base_api_uri = 'api.usersessionapi.dev/api'
   end
 
 
@@ -26,9 +26,6 @@ SabisuRails.setup do |config|
 
   # Headers to include on each request
   #
-  # You can configure the api headers fairly easy by just adding the correct headers
-  # config.api_headers = { "Accept" => "application/json,application/vnd.peoplemap.v1" }
-  # config.api_headers = { "Accept" => "application/vnd.peoplemap.v1" }
 
   # config.api_headers = {}
 
@@ -37,8 +34,7 @@ SabisuRails.setup do |config|
 
   # Resources on the api
   # config.resources = [:products, :users...]
-  config.resources = [:users => [:email,:password,:password_confirmation]]
-
+  config.resources = [ {:users => [:email, :password, :password_confirmation]}, {:user_locations => [:location_id, :located_at]}, {:physical_persons => [:name, :age, :civil_state, :gender]}]
   # Default resource
   config.default_resource = :users
 

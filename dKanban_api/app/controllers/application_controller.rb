@@ -8,4 +8,9 @@ class ApplicationController < ActionController::Base
 
   include Authenticable
 
+
+  def render_missing_params_message
+    render json: {errors: "Missing params" }, status: 422
+  end
+
 end

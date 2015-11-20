@@ -26,7 +26,7 @@ describe User do
 
   describe "#generate_authentication_token" do
     it "generates a unique token" do
-      Devise.stub(:friendly_token).and_return("auniquetoken123")
+      Devise.stubs(:friendly_token).returns("auniquetoken123")
       @user.generate_authentication_token!
       expect(@user.auth_token).to eql "auniquetoken123"
     end
@@ -35,6 +35,43 @@ describe User do
       existing_user = FactoryGirl.create(:user, auth_token: "auniquetoken123")
       @user.generate_authentication_token!
       expect(@user.auth_token).not_to eql existing_user.auth_token
+    end
+  end
+
+  describe "#user association" do
+    before do
+      @user.save
+
+      3.times {
+        new_location = FactoryGirl.build :location
+        FactoryGirl.create :user_location, user: @user, location: new_location
+      }
+
+    end
+
+    it "destroys the associated user_locations on self destruct" do
+      user_locations = UserLocation.where(:user_id => @user.id)
+      @user.destroy
+      user_locations.each do |user_location|
+        expect(UserLocation.find(user_location)).to raise_error ActiveRecord::RecordNotFound
+      end
+    end
+
+  end
+
+  it { should have_one(:physical_person) }
+
+  describe "#physical_person association" do
+
+    before do
+      @user.save
+      FactoryGirl.create :physical_person, user: @user
+    end
+
+    it "destroys the associated physical_person on self destruct" do
+      physical_person = @user.physical_person
+      @user.destroy
+      # expect(PhysicalPerson.find(physical_person.id)).to raise_error ActiveRecord::RecordNotFound
     end
   end
 
