@@ -6,8 +6,8 @@ Provides a like kanban application suport api.
 
 #Endpoints 
 The Endpoints can be viwed in with this file 
-[a link](https://github.com/dKanban/dKanban_api/blob/master/docs/endpoints.paw)
+[Endpoint Documentation](https://github.com/dKanban/dKanban_api/blob/master/docs/endpoints.paw)
 
 To open this file, you can use this software 
-[a link](https://luckymarmot.com/paw)
+[Paw app ](https://luckymarmot.com/paw)
 
