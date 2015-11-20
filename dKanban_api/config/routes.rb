@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
         resources :comments, :only => [:show, :create, :destroy,:index]
 
+        resources :activitys, :only => [:show, :create, :index]
 
       end
 
