@@ -14,7 +14,13 @@ Rails.application.routes.draw do
 
       resources :sessions, :only => [:create, :destroy]
 
-      resources :demands, :only => [:show, :update, :index]
+      resources :demands, :only => [:show, :update, :index] do
+
+        resources :comments, :only => [:show, :create, :destroy,:index]
+
+        resources :activitys, :only => [:show, :create, :index]
+
+      end
 
 
 
