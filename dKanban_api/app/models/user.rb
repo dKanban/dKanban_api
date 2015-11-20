@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
 
   has_many :developed_demands, :class_name => "Demand", inverse_of: :developer_owner
   has_many :created_demands, :class_name => "Demand", inverse_of: :client_owner
+  has_many :comments, :class_name => "Comment", inverse_of: :user_owner
 
   before_create :generate_authentication_token!
 
