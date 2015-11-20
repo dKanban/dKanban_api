@@ -38,41 +38,5 @@ describe User do
     end
   end
 
-  describe "#user association" do
-    before do
-      @user.save
-
-      3.times {
-        new_location = FactoryGirl.build :location
-        FactoryGirl.create :user_location, user: @user, location: new_location
-      }
-
-    end
-
-    it "destroys the associated user_locations on self destruct" do
-      user_locations = UserLocation.where(:user_id => @user.id)
-      @user.destroy
-      user_locations.each do |user_location|
-        expect(UserLocation.find(user_location)).to raise_error ActiveRecord::RecordNotFound
-      end
-    end
-
-  end
-
-  it { should have_one(:physical_person) }
-
-  describe "#physical_person association" do
-
-    before do
-      @user.save
-      FactoryGirl.create :physical_person, user: @user
-    end
-
-    it "destroys the associated physical_person on self destruct" do
-      physical_person = @user.physical_person
-      @user.destroy
-      # expect(PhysicalPerson.find(physical_person.id)).to raise_error ActiveRecord::RecordNotFound
-    end
-  end
 
 end

@@ -1,0 +1,11 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "basePath": "/",
+  "apis": [
+    {
+      "path": "api/v1/user_locations.{format}",
+      "description": "User_Locations"
+    }
+  ]
+}

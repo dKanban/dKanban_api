@@ -34,7 +34,7 @@ SabisuRails.setup do |config|
 
   # Resources on the api
   # config.resources = [:products, :users...]
-  config.resources = [ {:users => [:email, :password, :password_confirmation]}, {:user_locations => [:location_id, :located_at]}, {:physical_persons => [:name, :age, :civil_state, :gender]}]
+  config.resources = [ {:users => [:email, :password, :password_confirmation]}]
   # Default resource
   config.default_resource = :users
 
