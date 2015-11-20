@@ -7,9 +7,9 @@ SabisuRails.setup do |config|
   # Base uri for posting the
   # config.base_api_uri = nil
   if Rails.env.production?
-    config.base_api_uri = 'peoplemapapi.herokuapp.com/api'
+    config.base_api_uri = 'dKanban.herokuapp.com/api'
   else
-    config.base_api_uri = 'api.peoplemapapi.dev/api'
+    config.base_api_uri = 'api.dKanban.dev/api'
   end
 
 
