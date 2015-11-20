@@ -3,8 +3,8 @@ class User < ActiveRecord::Base
 
   validates :auth_token, uniqueness: true
 
-  # Include default devise modules. Others available are:
-  # :confirmable, :lockable, :timeoutable and :omniauthable
+  has_many :developed_demands, :class_name => "Demand", inverse_of: :developer_owner
+  has_many :created_demands, :class_name => "Demand", inverse_of: :client_owner
 
   before_create :generate_authentication_token!
 
