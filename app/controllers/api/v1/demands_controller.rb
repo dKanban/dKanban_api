@@ -4,7 +4,8 @@ class Api::V1::DemandsController < ApplicationController
   respond_to :json
 
   def index
-    respond_with Demand.all
+    @demands = Demand.all
+    render json: {demands: @demands, comments: Comment.all, activities: Activity.all}, methods: [:comment_ids, :activity_ids]
   end
 
   def show
@@ -44,6 +45,6 @@ class Api::V1::DemandsController < ApplicationController
   def demand_params
     params.require(:demand).permit(:title, :description, :client_owner_id, :developer_owner_id,:status,:priority)
   end
-  
-  
+
+
 end
