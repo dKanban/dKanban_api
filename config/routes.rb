@@ -7,10 +7,8 @@ Rails.application.routes.draw do
   mount SabisuRails::Engine => "/sabisu_rails"
 
 
-  namespace :api, defaults: {format: :json } do
-
-    scope module: :v1 , constraints: ApiConstraints.new(version: 1, default: true) do
-
+  namespace :api do
+      namespace :v1, defaults: {format: :json } do
 
       resources :sessions, :only => [:create, :destroy]
 
@@ -37,8 +35,7 @@ Rails.application.routes.draw do
 
       devise_for :users
 
-    end
+      end
+
   end
-
-
 end

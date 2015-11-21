@@ -1,3 +1,4 @@
+
 class Api::V1::ActivitysController < ApplicationController
 
   before_action :authenticate_with_token!, only: [:create,:show,:index]

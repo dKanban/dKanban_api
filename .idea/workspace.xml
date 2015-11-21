@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9e6ee10-1333-43f9-b7b8-d88ba2c2792e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dKanban_web_frontend" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.env" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/runConfigurations/Development__people_map_api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/runConfigurations/Production__people_map_api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/runConfigurations/spec__people_map_api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/runConfigurations/test__people_map_api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.rspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/Procfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/README.rdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/assets/images/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/assets/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/assets/stylesheets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/controllers/api/v1/sessions_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/controllers/api/v1/users_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/controllers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/controllers/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/controllers/concerns/authenticable.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/models/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/models/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/app/views/layouts/application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/bin/bundle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/bin/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/bin/rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/bin/setup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/bin/spring" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/environments/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/environments/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/environments/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/assets.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/devise.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/sabisu_rails.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/simple_form.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/locales/devise.en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/locales/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/locales/simple_form.en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/config/secrets.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/db/migrate/20150801204904_devise_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/db/migrate/20150804221535_add_authentication_toke_to_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/db/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/db/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/lib/api_constraints.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/lib/assets/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/lib/spec/api_constraints_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/lib/tasks/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/lib/templates/erb/scaffold/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/log/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/FontAwesome-1c16453d10b097c5c4fe65c6d67d3433.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/application-23f550b00a8fd38379f943008f706065.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/application-23f550b00a8fd38379f943008f706065.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/application-ee9a5883028a04dbd680b80635b1f740.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/application-ee9a5883028a04dbd680b80635b1f740.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/fontawesome-webfont-7b67f37d2f9a1648b019789fc77ac1f3.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/fontawesome-webfont-82565f1e129fc81c05db44a2f387f3d5.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/fontawesome-webfont-859865b8cba50d10b61b06e159f26883.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/fontawesome-webfont-ac002b8d31ef2e6db176befe711a226e.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/fontawesome-webfont-cbc4ddf1bc51276c401d574deaedbe35.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/manifest-67c991cc07896cf76a5d96300de3736f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/sabisu_rails/application-16b3a3155ad4498ab0bdd56ef4cfee20.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/sabisu_rails/application-16b3a3155ad4498ab0bdd56ef4cfee20.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/sabisu_rails/application-4867b2eee8764f7062652378c14a8487.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/assets/sabisu_rails/application-4867b2eee8764f7062652378c14a8487.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/controllers/api/v1/sessions_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/controllers/api/v1/users_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/controllers/concerns/authenticable_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/factories/users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/models/user_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/spec_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/spec/support/request_helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/vendor/assets/javascripts/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/vendor/assets/stylesheets/.keep" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/people_map_api.iml" afterPath="$PROJECT_DIR$/../.idea/dKanban.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../rails_user_session_pattern/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+    </list>
+    <ignored path="people_map_api.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/people_map_api@Development__people_map_api.coverage" NAME="Development: people_map_api Coverage Results" MODIFIED="1438468760702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="people_map_api" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="people_map_api" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="comments_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/comments_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activitys_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/activitys_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3548896">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.111111">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demands_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/demands_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/api_constraints.rb" />
+        <option value="$PROJECT_DIR$/lib/spec/api_constraints_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/users.rb" />
+        <option value="$PROJECT_DIR$/config/dKanban_api.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/secrets.yml" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150804221535_add_authentication_toke_to_users.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/api/v1/sessions_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/request_helpers.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/api/v1/users_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/concerns/authenticable_spec.rb" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app/controllers/dKanban_api_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/sabisu_rails.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20151120030607_add_full_name_and_profile_type_to_user.rb" />
+        <option value="$PROJECT_DIR$/spec/models/demand_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20151120133903_create_demands.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20151120141437_create_comments.rb" />
+        <option value="$PROJECT_DIR$/spec/models/comment_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/comment_serializer.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/demands.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/models/demand.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/demand_serializer.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/api/v1/demands_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/comments.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/api/v1/comments_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/concerns/authenticable.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/api/v1/activitys_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/activities.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/activity_serializer.rb" />
+        <option value="$PROJECT_DIR$/spec/models/activity_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20151120214156_change_type_property_name_to_activity_type.rb" />
+        <option value="$PROJECT_DIR$/app/models/activity.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/demands_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/activitys_controller.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-375" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dKanban_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/serializers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
+      <recent name="$PROJECT_DIR$/app/controllers/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: people_map_api">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: people_map_api" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: people_map_api" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: people_map_api" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: people_map_api" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9e6ee10-1333-43f9-b7b8-d88ba2c2792e" name="Default" comment="" />
+      <created>1438457373254</created>
+      <option name="number" value="Default" />
+      <updated>1438457373254</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Updating project structure">
+      <created>1438457764454</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1438457764454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removes unsued commented code from the route files">
+      <created>1438459334113</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1438459334113</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add api constraints and version settings">
+      <created>1438461959339</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1438461959339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add devise user model">
+      <created>1438463113899</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1438463113899</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add user first specs">
+      <created>1438463471651</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438463471651</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adds shoulda matchers for spec refactors">
+      <created>1438463871182</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1438463871182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adds show action the user controller">
+      <created>1438464934495</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1438464934495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updates dKanban_api controller to prevent CSFR exception from being raised&quot;">
+      <created>1438466181153</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1438466181153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add user create endpoint">
+      <created>1438469168214</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1438469168214</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add user update endpoint">
+      <created>1438547322657</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1438547322657</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add user delete endpoint">
+      <created>1438548208567</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1438548208567</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add sabisu to test endpoints">
+      <created>1438550309400</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1438550309400</updated>
+    </task>
+    <task id="LOCAL-00013" summary="integrates heroku">
+      <created>1438552037139</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1438552037139</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adds pg gem for production">
+      <created>1438552487326</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1438552487326</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adds turbolinks gem for production">
+      <created>1438552881895</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1438552881895</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adds some setups  for production">
+      <created>1438553593710</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1438553593710</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adds root route  for production">
+      <created>1438553722847</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1438553722847</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tests">
+      <created>1438553952453</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1438553952453</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tests">
+      <created>1438554597417</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1438554597417</updated>
+    </task>
+    <task id="LOCAL-00020" summary="setuping subasi">
+      <created>1438556647455</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1438556647455</updated>
+    </task>
+    <task id="LOCAL-00021" summary="sets up gems for heroku">
+      <created>1438556713179</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1438556713179</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sets subasi for heroku">
+      <created>1438557010247</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1438557010247</updated>
+    </task>
+    <task id="LOCAL-00023" summary="sets subasi for heroku">
+      <created>1438557186325</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1438557186325</updated>
+    </task>
+    <task id="LOCAL-00024" summary="simplify the post create rest">
+      <created>1438563588479</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1438563588479</updated>
+    </task>
+    <task id="LOCAL-00025" summary="configs for sabisu in heroku">
+      <created>1438564099999</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1438564099999</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add welcome index in production">
+      <created>1438564707375</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1438564707375</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add welcome index in production">
+      <created>1438565489942</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1438565489942</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add welcome index in production">
+      <created>1438565605913</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1438565605913</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add welcome index in production">
+      <created>1438568466322</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1438568466322</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactoring json response&#10;">
+      <created>1438572915581</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1438572915581</updated>
+    </task>
+    <task id="LOCAL-00031" summary="refactoring before each header request&#10;">
+      <created>1438573538705</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1438573538705</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Adds user authentication token&#10;">
+      <created>1438728206520</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1438728206520</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-375" y="-1057" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19275825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39321074" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3485309" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39321074" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39321074" sideWeight="0.49676898" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33037156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add api constraints and version settings" />
+    <MESSAGE value="Add devise user model" />
+    <MESSAGE value="Add user first specs" />
+    <MESSAGE value="Adds shoulda matchers for spec refactors" />
+    <MESSAGE value="Adds show action the user controller" />
+    <MESSAGE value="Updates dKanban_api controller to prevent CSFR exception from being raised&quot;" />
+    <MESSAGE value="Add user create endpoint" />
+    <MESSAGE value="Add user update endpoint" />
+    <MESSAGE value="Add user delete endpoint" />
+    <MESSAGE value="Add sabisu to test endpoints" />
+    <MESSAGE value="integrates heroku" />
+    <MESSAGE value="Adds pg gem for production" />
+    <MESSAGE value="Adds turbolinks gem for production" />
+    <MESSAGE value="Adds some setups  for production" />
+    <MESSAGE value="Adds root route  for production" />
+    <MESSAGE value="tests" />
+    <MESSAGE value="setuping subasi" />
+    <MESSAGE value="sets up gems for heroku" />
+    <MESSAGE value="sets subasi for heroku" />
+    <MESSAGE value="simplify the post create rest" />
+    <MESSAGE value="configs for sabisu in heroku" />
+    <MESSAGE value="add welcome index in production" />
+    <MESSAGE value="refactoring json response&#10;" />
+    <MESSAGE value="refactoring before each header request&#10;" />
+    <MESSAGE value="Adds user authentication token&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds user authentication token&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6728624">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23796791">
+          <caret line="232" column="29" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7381546">
+          <caret line="21" column="147" selection-start-line="21" selection-start-column="147" selection-end-line="21" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5885287">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/concerns/authenticable_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7256858">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33167082">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037406486">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/request_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52369076">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18703242">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/sabisu_rails.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150804221535_add_authentication_toke_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150801204904_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41095892">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151120040207_add_user_full_name_and_profile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15679443">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76480836">
+          <caret line="39" column="0" selection-start-line="4" selection-start-column="2" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151120133903_create_demands.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15789473">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151120141437_create_comments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23684211">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/demand_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078947365">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151120143631_create_activities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13157895">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/comment_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17991005">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/comment_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.022488756">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09693053">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13493253">
+          <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1453958">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/demand.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31502423">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2907916">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/user_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12116317">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/demand_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0726979">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/api/v1/sessions_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6759259">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/demands.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20833333">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/api/v1/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42649436">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/comments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/authenticable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33925685">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/api/v1/demands_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/api/v1/comments_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41195476">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/activities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1453958">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/activity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1453958">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151120214156_change_type_property_name_to_activity_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1453958">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/activity_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5067568">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/activity_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024232633">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17073171">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/api/v1/activitys_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07317073">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.111111">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/demands_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/activitys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548896">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
