@@ -16,7 +16,7 @@ class Api::V1::DemandsController < ApplicationController
     demand = current_user.developed_demands.build(demand_params)
 
     if demand.save
-      render json: demand, status: 201, location: [:api, demand]
+      render json: demand, status: 201, location: [:api,:v1,demand]
     else
       render json: { errors: demand.errors }, status: 422
     end
@@ -25,7 +25,7 @@ class Api::V1::DemandsController < ApplicationController
   def update
     demand = Demand.find(params[:id])
     if demand.update(demand_params)
-      render json: demand, status: 200, location: [:api, demand]
+      render json: demand, status: 200, location: [:api,:v1,demand]
     else
       render json: { errors: demand.errors }, status: 422
     end
