@@ -34,7 +34,7 @@ class Api::V1::DemandsController < ApplicationController
       render json: { errors: demand.errors }, status: 422
     end
   end
-  
+
   private
 
   def demand_params
