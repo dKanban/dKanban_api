@@ -5,7 +5,8 @@ class Api::V1::CommentsController < ApplicationController
 
 
   def show
-    respond_with Comment.find(params[:id])
+    current_comment = Comment.find(params[:id])
+    render json: { comments: current_comment }, status: 201
   end
 
   def create
@@ -27,7 +28,7 @@ class Api::V1::CommentsController < ApplicationController
 
   def index
     demand = Demand.find(params[:demand_id])
-    respond_with demand.comments
+    render json: { comments: demand.comments }, status: 201
   end
 
 

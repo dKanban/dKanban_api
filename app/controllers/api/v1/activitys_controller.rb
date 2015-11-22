@@ -6,7 +6,8 @@ class Api::V1::ActivitysController < ApplicationController
 
 
   def show
-    respond_with Activity.find(params[:id])
+    current_activity = Activity.find(params[:id])
+    render json: {activitys: current_activity } , status: 201
   end
 
   def create
@@ -22,7 +23,10 @@ class Api::V1::ActivitysController < ApplicationController
 
   def index
     demand = Demand.find(params[:demand_id])
-    respond_with demand.activities
+    demand_activitys =  demand.activities
+
+    render json: {activitys: demand_activitys } , status: 201
+
   end
 
 

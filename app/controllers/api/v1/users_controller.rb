@@ -12,11 +12,17 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def show
-    respond_with User.find(params[:id])
+    current_user =  User.find(params[:id])
+
+    render json: {users: current_user } , status: 201
+
   end
 
   def index
-    respond_with User.all.limit(1000)
+    all_users = User.all.limit(1000)
+
+    render json: {users: all_users } , status: 201
+
   end
 
   def update

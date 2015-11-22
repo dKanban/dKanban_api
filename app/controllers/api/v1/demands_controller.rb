@@ -9,7 +9,10 @@ class Api::V1::DemandsController < ApplicationController
   end
 
   def show
-    respond_with Demand.find(params[:id])
+    demand =  Demand.find(params[:id])
+
+    render json: {demands: demand}, status: :created, location: [:api,:v1,demand]
+
   end
 
   def create
@@ -31,15 +34,7 @@ class Api::V1::DemandsController < ApplicationController
       render json: { errors: demand.errors }, status: 422
     end
   end
-
-  def my_developed_demands
-    respond_with current_user.developed_demands
-  end
-
-  def my_requested_demands
-    respond_with current_user.requested_demands
-  end
-
+  
   private
 
   def demand_params
