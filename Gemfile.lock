@@ -145,7 +145,7 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.18.2)
-    puma (2.12.3)
+    puma (2.15.3)
     rack (1.6.4)
     rack-cors (0.4.0)
     rack-test (0.6.3)
@@ -263,7 +263,7 @@ DEPENDENCIES
   mocha
   paperclip (~> 4.3)
   pg
-  puma (= 2.12.3)
+  puma (~> 2.15.3)
   rack-cors
   rails (= 4.2.1)
   rails_12factor

@@ -12,7 +12,7 @@ describe Api::V1::SessionsController do
 
       before(:each) do
         credentials = { email: @user.email, password: "12345678" }
-        post :create, { session: credentials }
+        post :create, { user: credentials }
       end
 
       it "returns the user record corresponding to the given credentials" do
@@ -27,7 +27,7 @@ describe Api::V1::SessionsController do
 
       before(:each) do
         credentials = { email: @user.email, password: "invalidpassword" }
-        post :create, { session: credentials }
+        post :create, { user: credentials }
       end
 
       it "returns a json with an error" do
@@ -38,16 +38,6 @@ describe Api::V1::SessionsController do
     end
   end
 
-  describe "DELETE #destroy" do
 
-    before(:each) do
-      @user = FactoryGirl.create :user
-      sign_in @user
-      delete :destroy, id: @user.auth_token
-    end
-
-    it { should respond_with 204 }
-
-  end
 
 end

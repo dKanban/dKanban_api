@@ -9,10 +9,12 @@ describe Api::V1::UsersController do
 
     it "returns the information about a reporter on a hash" do
       user_response = json_response
-      expect(user_response[:email]).to eql @user.email
+      user = user_response[:users]
+
+      expect(user[:email]).to eql @user.email
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
   end
 
   describe "POST #create" do

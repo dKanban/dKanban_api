@@ -13,10 +13,11 @@ RSpec.describe Api::V1::ActivitysController, type: :controller do
 
     it "returns the information about a activity on a hash" do
       activitys_response = json_response
-      expect(activitys_response[:description]).to eql @activity.description
+      activity = activitys_response[:activitys]
+      expect(activity[:description]).to eql @activity.description
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
   end
 
   describe "POST #create" do
@@ -65,7 +66,7 @@ RSpec.describe Api::V1::ActivitysController, type: :controller do
       get :index, { demand_id: demand.id }
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
 
   end
 

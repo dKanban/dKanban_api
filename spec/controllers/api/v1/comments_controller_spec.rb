@@ -12,10 +12,11 @@ RSpec.describe Api::V1::CommentsController, type: :controller do
 
     it "returns the information about a comment on a hash" do
       comments_response = json_response
-      expect(comments_response[:content]).to eql @comment.content
+      comment = comments_response[:comments]
+      expect(comment[:content]).to eql @comment.content
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
   end
 
   describe "POST #create" do
@@ -78,7 +79,7 @@ RSpec.describe Api::V1::CommentsController, type: :controller do
       get :index, { demand_id: demand.id }
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
 
   end
 

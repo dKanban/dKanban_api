@@ -44,7 +44,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 # Server scheduled Tasks
-gem 'puma', '2.12.3'
+gem 'puma', '~> 2.15.3'
 gem 'mocha'
 gem 'whenever'
 

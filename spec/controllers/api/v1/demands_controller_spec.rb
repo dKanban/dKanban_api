@@ -9,11 +9,11 @@ RSpec.describe Api::V1::DemandsController, type: :controller do
     end
 
     it "returns the information about a demand on a hash" do
-      demands_response = json_response
+      demands_response = json_response[:demands]
       expect(demands_response[:title]).to eql @demand.title
     end
 
-    it { should respond_with 200 }
+    it { should respond_with 201 }
   end
 
 
@@ -30,7 +30,8 @@ RSpec.describe Api::V1::DemandsController, type: :controller do
 
       it "renders the json representation for the demand record just created" do
         demand_response = json_response
-        expect(demand_response[:title]).to eql @demand_attributes[:title]
+        demand = demand_response[:demands]
+        expect(demand[:title]).to eql @demand_attributes[:title]
       end
 
       it { should respond_with 201 }
@@ -75,7 +76,7 @@ RSpec.describe Api::V1::DemandsController, type: :controller do
       end
 
       it "renders the json representation for the updated demand" do
-        demand_response = json_response
+        demand_response = json_response[:demands]
         expect(demand_response[:title]).to eql "Create a class"
       end
 
@@ -102,43 +103,6 @@ RSpec.describe Api::V1::DemandsController, type: :controller do
     end
   end
 
-  describe "GET #my_developed_demands" do
-    context "when has demands" do
-      before(:each) do
-        user = FactoryGirl.create :user
-        demand = FactoryGirl.create :demand, developer_owner_id: user.id
 
-        api_authorization_header user.auth_token
-        get :my_developed_demands, {user_id: user.id}
-      end
 
-      it "renders the json representation for the demands records" do
-        demand_response = json_response
-        expect(demand_response.count).to eql 1
-      end
-
-      it { should respond_with 200 }
-    end
-  end
-
-  describe "GET #my_requested_demands" do
-    context "when has demands" do
-      before(:each) do
-        user = FactoryGirl.create :user
-        demand = FactoryGirl.create :demand, client_owner_id: user.id
-
-        api_authorization_header user.auth_token
-        get :my_requested_demands, {user_id: user.id}
-      end
-
-      it "renders the json representation for the demands records" do
-        demand_response = json_response
-        expect(demand_response.count).to eql 1
-      end
-
-      it { should respond_with 200 }
-    end
-  end
-
-  
 end
