@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
       resources :sessions, :only => [:create, :destroy]
 
-      resources :demands, :only => [:show, :update, :index] do
+      resources :demands, :only => [:show, :update, :index, :create] do
 
         resources :comments, :only => [:show, :create, :destroy,:index]
 
@@ -24,12 +24,7 @@ Rails.application.routes.draw do
 
       resources :users, :only => [:index, :show, :create, :update, :destroy] do
 
-        resources :demands, :only => [:create] do
-          collection do
-            get :my_developed_demands
-            get :my_requested_demands
-          end
-        end
+
 
       end
 

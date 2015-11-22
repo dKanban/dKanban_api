@@ -170,7 +170,7 @@
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">POST</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">[{"data":{"json":"{\\"user\\":{\\"email\\":\\"test@gmail.com\\",\\"password\\":\\"password\\",\\"password\\":\\"password\\",\\"full_name\\":\\"New User\\",\\"profile_type\\":\\"1\\"}}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="body" type="string">[{"data":{"json":"{\\"user\\":{\\"email\\":\\"test@dasdas.asd\\",\\"password\\":\\"password\\",\\"password\\":\\"password\\",\\"full_name\\":\\"New User\\",\\"profile_type\\":\\"1\\"}}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">Create a user</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z196"></relationship>
@@ -199,7 +199,7 @@
     </object>
     <object type="LMREQUEST" id="z186">
         <attribute name="uuid" type="string">3A671BC5-B710-4550-9396-23B80F478FDB</attribute>
-        <attribute name="url" type="string">http://localhost:3000/api/users/1</attribute>
+        <attribute name="url" type="string">http://localhost:3000/api/v1/users/1</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
         <attribute name="sendcookies" type="bool">1</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
@@ -388,14 +388,14 @@
     </object>
     <object type="LMREQUEST" id="z323">
         <attribute name="uuid" type="string">FE652441-DEBC-4F55-91BC-83F3EA8B0D44</attribute>
-        <attribute name="url" type="string">http://localhost:3000/api/v1/users/1/demands/</attribute>
+        <attribute name="url" type="string">http://localhost:3000/api/v1/demands</attribute>
         <attribute name="storecookies" type="bool">1</attribute>
         <attribute name="sendcookies" type="bool">1</attribute>
         <attribute name="redirectmethod" type="bool">0</attribute>
         <attribute name="redirectauthorization" type="bool">0</attribute>
         <attribute name="method" type="string">POST</attribute>
         <attribute name="followredirects" type="bool">0</attribute>
-        <attribute name="body" type="string">[{"data":{"json":"{\\"demand\\":{\\"title\\":\\"Criar alguns metodos\\",\\"status\\":\\"3\\",\\"priority\\":\\"2\\"}}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
+        <attribute name="body" type="string">[{"data":{"json":"{\\"demand\\":{\\"title\\":\\"Muito doido isso ae\\",\\"status\\":\\"0\\",\\"priority\\":\\"1\\",\\"description\\":\\"Basta fazer um API!\\"}}"},"identifier":"com.luckymarmot.JSONDynamicValue"}]</attribute>
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">Create a demand</attribute>
         <relationship name="parent" type="0/1" destination="LMREQUESTTREEITEM" idrefs="z320"></relationship>
@@ -449,7 +449,7 @@
         <relationship name="headers" type="0/0" destination="LMKEYVALUE" idrefs="z321"></relationship>
     </object>
     <object type="LMKEYVALUE" id="z327">
-        <attribute name="value" type="string">3iv-LWz4Eadacsz6RwMq</attribute>
+        <attribute name="value" type="string">mskkisLAKB6Sq-TvbXT-</attribute>
         <attribute name="order" type="int64">0</attribute>
         <attribute name="name" type="string">Authorization</attribute>
         <attribute name="enabled" type="bool">1</attribute>
